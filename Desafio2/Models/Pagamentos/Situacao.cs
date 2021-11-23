@@ -7,8 +7,8 @@ namespace Desafio2.Models.Pagamentos
 {
     public class Situacao
     {
-        public string Estado { get; set; }
         public double Valor { get; set; }
+        public string Estado { get; set; }
 
         public Situacao(string estado, double valor)
         {
